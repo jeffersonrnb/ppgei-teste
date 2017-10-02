@@ -361,42 +361,42 @@
 	                          </tbody>
 	                        </table>
 		<div class="paginacao" style="text-align:center; ">
-		
+
 			<div style="text-align: center;"><span id="form:j_idt70:j_idt72"><span style="display:none" class="rf-st-start"><img id="form:j_idt70:autocomplete_loading" src="/sucupira/images/ajax-loader.gif" alt="ai" style="width:25px; height:25px;" />
-                        <br /></span><span class="rf-st-stop"></span><script type="text/javascript">new RichFaces.ui.Status("form:j_idt70:j_idt72",{"statusName":"statusAjax"} )</script></span>			
+                        <br /></span><span class="rf-st-stop"></span><script type="text/javascript">new RichFaces.ui.Status("form:j_idt70:j_idt72",{"statusName":"statusAjax"} )</script></span>
 			</div>
-		
+
 			<ul>
-				<li class="pag-inicio"><span id="form:j_idt70:botaoPrimeiraPagina" name="form:j_idt70:botaoPrimeiraPagina" class="alteraPagina">In&iacute;cio</span>	
-					
+				<li class="pag-inicio"><span id="form:j_idt70:botaoPrimeiraPagina" name="form:j_idt70:botaoPrimeiraPagina" class="alteraPagina">In&iacute;cio</span>
+
 				</li>
-				<li class="pag-anterior"><span id="form:j_idt70:botaoPaginaAnterior" name="form:j_idt70:botaoPaginaAnterior" class="alteraPagina">Anterior</span><input id="form:j_idt70:botaoRefreshInvisivel" type="submit" name="form:j_idt70:botaoRefreshInvisivel" value="Refresh" style="display:none;" class="botaoRefresh" onclick="RichFaces.ajax(this,event,{&quot;parameters&quot;:{&quot;javax.faces.behavior.event&quot;:&quot;action&quot;,&quot;org.richfaces.ajax.component&quot;:&quot;form:j_idt70:botaoRefreshInvisivel&quot;} ,&quot;sourceId&quot;:this} );return false" />				
-				</li>				
+				<li class="pag-anterior"><span id="form:j_idt70:botaoPaginaAnterior" name="form:j_idt70:botaoPaginaAnterior" class="alteraPagina">Anterior</span><input id="form:j_idt70:botaoRefreshInvisivel" type="submit" name="form:j_idt70:botaoRefreshInvisivel" value="Refresh" style="display:none;" class="botaoRefresh" onclick="RichFaces.ajax(this,event,{&quot;parameters&quot;:{&quot;javax.faces.behavior.event&quot;:&quot;action&quot;,&quot;org.richfaces.ajax.component&quot;:&quot;form:j_idt70:botaoRefreshInvisivel&quot;} ,&quot;sourceId&quot;:this} );return false" />
+				</li>
 				<li><select id="form:j_idt70:j_idt77" name="form:j_idt70:j_idt77" class="form-control" size="1" onchange="jsf.util.chain(this,event,&quot;selecionarOrdenacao(this); desabilitarBotoesPaginacao(); &quot;,&quot;RichFaces.ajax(this,event,{\&quot;status\&quot;:\&quot;statusAjax\&quot;,\&quot;parameters\&quot;:{\&quot;javax.faces.behavior.event\&quot;:\&quot;change\&quot;,\&quot;org.richfaces.ajax.component\&quot;:\&quot;form:j_idt70:j_idt77\&quot;} ,\&quot;sourceId\&quot;:this} )&quot;)">	<option value="1" selected="selected">1</option>
 </select>
 				</li>
-				<li class="pag-proxima"><span id="form:j_idt70:botaoProxPagina" name="form:j_idt70:botaoProxPagina" class="alteraPagina">Pr&oacute;xima</span>	
+				<li class="pag-proxima"><span id="form:j_idt70:botaoProxPagina" name="form:j_idt70:botaoProxPagina" class="alteraPagina">Pr&oacute;xima</span>
 				</li>
-				<li class="pag-fim"><span id="form:j_idt70:botaoUltimaPagina" name="form:j_idt70:botaoUltimaPagina" class="alteraPagina">Fim</span>	
-						
+				<li class="pag-fim"><span id="form:j_idt70:botaoUltimaPagina" name="form:j_idt70:botaoUltimaPagina" class="alteraPagina">Fim</span>
+
 				</li>
-				
-				
-				
+
+
+
 			</ul>
 		</div><div id="form:j_idt70:div_paginacao" class="paginacao" style="text-align:center;">
 			<ul>
 				<li>1 a 38 de 38 registro(s)
 						<script type="text/javascript">
 							function realizarSort(){
-								
+
 							}
 						 </script>
-					
-					
-					
+
+
+
 				</li>
-			</ul></div>	
+			</ul></div>
 		<body onload="refreshPaginacao();"></body>
 	                      </div>
-	                    </div></span><script type="text/javascript">new RichFaces.ui.Status("form:j_idt55",{"statusName":"resultado"} )</script></span></span>]]></update><update id="javax.faces.ViewState"><![CDATA[3173401818934599609:5395467878419038489]]></update><extension id="org.richfaces.extension"><complete>window.scrollTo(0, 0);;</complete></extension></changes></partial-response>
+	                    </div></span><script type="text/javascript">new RichFaces.ui.Status("form:j_idt55",{"statusName":"resultado"} )</script></span></span>]]></update><update id="javax.faces.ViewState"><![CDATA[4277149376234267649:-3505453426517887072]]></update><extension id="org.richfaces.extension"><complete>window.scrollTo(0, 0);;</complete></extension></changes></partial-response>

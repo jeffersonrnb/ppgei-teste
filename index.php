@@ -251,9 +251,9 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
 
     $data = curl_exec($ch);
 
-    $fp = fopen('test.txt', 'w');
+    /*$fp = fopen('test.txt', 'w');
     fwrite($fp, $data);
-    fclose($fp);
+    fclose($fp);*/
 
     $dom = new DOMDocument();
     $dom->loadHTML($data);
@@ -319,27 +319,30 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
         }
     }
 
-    var_dump($teachers);
-
-    $fp = fopen('test.txt', 'w');
+    /*$fp = fopen('test.txt', 'w');
     fwrite($fp, $data);
-    fclose($fp);
+    fclose($fp);*/
 
     $header = curl_getinfo($ch, CURLINFO_HEADER_OUT);
     curl_close($ch);
+
+    return $teachers;
 }
 
 // Chamadas da função acima
-getProgramTeachers(); // $program_id = 367
+$return = getProgramTeachers(); // $program_id = 367
+var_dump($return);
 echo "</br>";
 echo "</br>";
-print_r("---------------------------------------------------------------------------------------------------------------");
+var_dump("---------------------------------------------------------------------------------------------------------------");
 echo "</br>";
 echo "</br>";
-getProgramTeachers("205000"); // $program_id = 205000
+$return = getProgramTeachers("205000"); // $program_id = 205000
+var_dump($return);
 echo "</br>";
 echo "</br>";
-print_r("---------------------------------------------------------------------------------------------------------------");
+var_dump("---------------------------------------------------------------------------------------------------------------");
 echo "</br>";
 echo "</br>";
-getProgramTeachers("205551"); // $program_id = 205551
+$return = getProgramTeachers("205551"); // $program_id = 205551
+var_dump($return);

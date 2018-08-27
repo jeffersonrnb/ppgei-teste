@@ -1,402 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<partial-response><changes><update id="mensagensGeraisDoSistema"><![CDATA[<div id="mensagensGeraisDoSistema"></div>]]></update><update id="form:listagemDocentes"><![CDATA[<span id="form:listagemDocentes"><span id="form:j_idt55"><span style="display:none" class="rf-st-start"></span><span class="rf-st-stop">
-	                    <p class="bg-info" style="margin: 50px 0 0 0; padding: 15px; border-radius: 5px; text-align: center">
-	                      Legenda: <span class="glyphicon glyphicon-search" style="padding-left: 15px"></span> Visualizar
-	                    </p>
-	                    <br />
-	                    <div class="col-xs-12 table-responsive">
-	                      <div class="resultados">
-	                        <table class="table table-striped table-bordered">
-	                          <caption></caption>
-	                          <thead>
-	                            <tr>
-	                              <th>Docente</th>
-	                              <th>Categoria</th>
-	                              <th>&nbsp;</th>
-	                            </tr>
-	                          </thead>
-	                          <tbody>
-	                              <tr>
-	                                <td>ADOLFO ALMEIDA DURAN</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100760&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>ALINE MARIA SANTOS ANDRADE</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100761&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>ANTONIO LOPES APOLINARIO JUNIOR</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100880&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>CASSIO VINICIUS SERAFIM PRAZERES</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100875&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>CHRISTINA VON FLACH GARCIA CHAVEZ</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100154&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>CLAUDIO NOGUEIRA SANT ANNA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100151&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>DANIELA BARREIRO CLARO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100881&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>DANILO BARBOSA COIMBRA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=161511&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>DEBORA ABDALLA SANTOS</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108634&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>ECIVALDO DE SOUZA MATOS</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108628&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>EDUARDO SANTANA DE ALMEIDA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100882&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>FABIOLA GONCALVES PEREIRA GREVE</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100883&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>FLAVIO MORAIS DE ASSIS SILVA</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100924&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>FREDERICO ARAUJO DURAO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100925&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>GEORGE MARCONI DE ARAUJO LIMA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100927&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>GUSTAVO BITTENCOURT FIGUEIREDO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100943&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>IVAN DO CARMO MACHADO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=128686&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>KARL PHILIPS APAZA AGUERO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=130455&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>LAIS DO NASCIMENTO SALVADOR</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100941&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>LEOBINO NASCIMENTO SAMPAIO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100951&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>LUCIANO REBOUCAS DE OLIVEIRA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100950&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>MANOEL GOMES DE MENDONCA NETO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100948&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>MARCOS ENNES BARRETO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100947&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>MARLO VIEIRA DOS SANTOS E SOUZA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=155150&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>MAURICIO PAMPLONA SEGUNDO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108630&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>MAYCON LEONE MACIEL PEIXOTO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=129376&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>PAUL DENIS ETIENNE REGNIER</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108717&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>RAFAEL AUGUSTO DE MELO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108624&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>RAIMUNDO JOSE DE ARAUJO MACEDO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100939&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>RICARDO ARAUJO RIOS</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108639&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>RITA SUZANA PITANGUEIRA MACIEL</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100874&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>RODRIGO ROCHA GOMES E SOUZA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=128726&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>RUBISLEY DE PAULA LEMES</td>
-	                                <td>COLABORADOR
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108631&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>STEFFEN LEWITZKA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100933&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>TATIANE MARQUES NOGUEIRA</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=108637&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>TIAGO DE OLIVEIRA JANUARIO</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=128772&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>VANINHA VIEIRA DOS SANTOS</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=100932&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                              <tr>
-	                                <td>VINICIUS TAVARES PETRUCCI</td>
-	                                <td>PERMANENTE
-	                                    	<br />
-	                                </td>
-	                                <td width="1%"><a href="/sucupira/public/consultas/coleta/docente/viewDocente.jsf?popup=true&amp;idDocente=129560&amp;anoVisualizar=2017" onclick="window.open(this.href, this.target, 'width=1024,height=650,scrollbars=yes,resizable=yes'); return false" rel="_blank">
-	                                    <span class="icone glyphicon glyphicon-search"></span></a>
-	                                </td>
-	                              </tr>
-	                          </tbody>
-	                        </table>
-		<div class="paginacao" style="text-align:center; ">
-
-			<div style="text-align: center;"><span id="form:j_idt70:j_idt72"><span style="display:none" class="rf-st-start"><img id="form:j_idt70:autocomplete_loading" src="/sucupira/images/ajax-loader.gif" alt="ai" style="width:25px; height:25px;" />
-                        <br /></span><span class="rf-st-stop"></span><script type="text/javascript">new RichFaces.ui.Status("form:j_idt70:j_idt72",{"statusName":"statusAjax"} )</script></span>
-			</div>
-
-			<ul>
-				<li class="pag-inicio"><span id="form:j_idt70:botaoPrimeiraPagina" name="form:j_idt70:botaoPrimeiraPagina" class="alteraPagina">In&iacute;cio</span>
-
-				</li>
-				<li class="pag-anterior"><span id="form:j_idt70:botaoPaginaAnterior" name="form:j_idt70:botaoPaginaAnterior" class="alteraPagina">Anterior</span><input id="form:j_idt70:botaoRefreshInvisivel" type="submit" name="form:j_idt70:botaoRefreshInvisivel" value="Refresh" style="display:none;" class="botaoRefresh" onclick="RichFaces.ajax(this,event,{&quot;parameters&quot;:{&quot;javax.faces.behavior.event&quot;:&quot;action&quot;,&quot;org.richfaces.ajax.component&quot;:&quot;form:j_idt70:botaoRefreshInvisivel&quot;} ,&quot;sourceId&quot;:this} );return false" />
-				</li>
-				<li><select id="form:j_idt70:j_idt77" name="form:j_idt70:j_idt77" class="form-control" size="1" onchange="jsf.util.chain(this,event,&quot;selecionarOrdenacao(this); desabilitarBotoesPaginacao(); &quot;,&quot;RichFaces.ajax(this,event,{\&quot;status\&quot;:\&quot;statusAjax\&quot;,\&quot;parameters\&quot;:{\&quot;javax.faces.behavior.event\&quot;:\&quot;change\&quot;,\&quot;org.richfaces.ajax.component\&quot;:\&quot;form:j_idt70:j_idt77\&quot;} ,\&quot;sourceId\&quot;:this} )&quot;)">	<option value="1" selected="selected">1</option>
+<partial-response><changes><update id="form:j_idt22:inst:inst"><![CDATA[<div id="form:j_idt22:inst:inst" class="au" style="margin-left: 0px; width: 100%"><div class="rf-p tooltipAutoComplete" id="form:j_idt22:inst:sample1" style="border: none;"><div class="rf-p-b " id="form:j_idt22:inst:sample1_body"><input id="form:j_idt22:inst:valueId" type="hidden" name="form:j_idt22:inst:valueId" value="4354" /><input id="form:j_idt22:inst:input" type="text" name="form:j_idt22:inst:input" autocomplete="off" value="28001010 UNIVERSIDADE FEDERAL DA BAHIA (UFBA)" class="form-control" maxlength="255" onblur="com.corejsf.inputLostFocus(this)" onclick="" onfocus="com.corejsf.inputGainFocus(this)" onkeyup="com.corejsf.updateCompletionItems(this, event,true)" size="0" style="width: 100%; max-width: 100%;" /><img id="form:j_idt22:inst:autocomplete_loading" src="/sucupira/images/ajax-loader.gif" alt="carregando" class="ico-loader-au" /><div id="form:j_idt22:inst:tt1" style="display: none;"><div id="form:j_idt22:inst:tt1:wrp" class="rf-tt tooltip" style="z-index:1000"><div id="form:j_idt22:inst:tt1:cntr" class="rf-tt-cntr"><div id="form:j_idt22:inst:tt1:content" class="rf-tt-cnt">
+	                <span style="white-space: nowrap"> Este campo prop&otilde;e sugest&otilde;es de preenchimento autom&aacute;tico &agrave; medida que voc&ecirc; digita. </span></div></div></div></div></div></div><select id="form:j_idt22:inst:listbox" name="form:j_idt22:inst:listbox" class="list-itens-au form-control" size="2" onblur="com.corejsf.inputLostFocus(this)" onkeyup="com.autocomplete.submitEnter(this, event);" style="display: none" onchange="mojarra.ab(this,event,'valueChange','form:j_idt22:inst','form:j_idt22:inst:inst form:j_idt22:inst:valueId form:j_idt22:programa')">	<option value="4354">28001010 UNIVERSIDADE FEDERAL DA BAHIA (UFBA)</option>
+</select><div class="params"></div></div>]]></update><update id="form:j_idt22:programa"><![CDATA[<span id="form:j_idt22:programa">
+		<div class="row">
+		  <div class="col-xs-12 col-md-8">
+	        <div class="form-group required">
+	          <label class="control-label"><label>Programa:</label></label>
+	          <div class="input-group">
+		        <div class="input-group-addon"><input type="checkbox" name="form:j_idt22:j_idt36" checked="checked" disabled="disabled" />
+	            </div><select name="form:j_idt22:j_idt98" class="form-control" size="1" onclick="check('form:checkPrograma')">	<option value="-1">-- SELECIONE --</option>
+	<option value="374">ADMINISTRAÇÃO (28001010020P3)</option>
+	<option value="152341">ADMINISTRAÇÃO (28001010052P2)</option>
+	<option value="52224">ALIMENTOS, NUTRIÇÃO E SAÚDE (28001010047P9)</option>
+	<option value="202655">ANTROPOLOGIA (28001010058P0)</option>
+	<option value="373">ARQUITETURA E URBANISMO (28001010019P5)</option>
+	<option value="385">ARTES CÊNICAS (28001010035P0)</option>
+	<option value="382">ARTES VISUAIS (28001010030P9)</option>
+	<option value="204719">Assistência Farmacêutica (42001013102P6) (Programa em Rede) </option>
+	<option value="206788">ASTROFÍSICA, COSMOLOGIA E GRAVITAÇÃO (30001013105P1) (Programa em Rede) </option>
+	<option value="204903">Biociências (28001010089P3)</option>
+	<option value="204385">BIOTECNOLOGIA (28001010080P6)</option>
+	<option value="202693">BIOTECNOLOGIA - Rede RENORBIO (22003010017P5) (Programa em Rede) </option>
+	<option value="204325">CECRE - Conservação e Restauração (28001010077P5)</option>
+	<option value="386">CIÊNCIA ANIMAL NOS TRÓPICOS (28001010036P7)</option>
+	<option value="205551">Ciência da Computação (28001010095P3)</option>
+	<option value="205000">CIÊNCIA DA COMPUTAÇÃO - UFBA - UEFS (28001010090P1)</option>
+	<option value="202824">CIÊNCIA DA COMPUTAÇÃO - UFBA - UNIFACS - UEFS (28001010061P1) (Programa em Rede) </option>
+	<option value="391">CIÊNCIA DA INFORMAÇÃO (28001010041P0)</option>
+	<option value="202629">CIÊNCIA DE ALIMENTOS (28001010057P4)</option>
+	<option value="204627">Ciências Ambientais (28001010086P4)</option>
+	<option value="204196">CIÊNCIAS DA SAÚDE (28001010072P3)</option>
+	<option value="377">CIÊNCIAS SOCIAIS (28001010023P2)</option>
+	<option value="378">COMUNICAÇÃO E CULTURA CONTEMPORÂNEA (28001010024P9)</option>
+	<option value="202867">CONTABILIDADE (28001010063P4)</option>
+	<option value="52315">CULTURA E SOCIEDADE (28001010049P1)</option>
+	<option value="205236">Currículo, linguagens e inovações pedagógicas. (28001010091P8)</option>
+	<option value="202540">DANÇA (28001010054P5)</option>
+	<option value="202541">DESENVOLVIMENTO E GESTÃO SOCIAL (28001010055P1)</option>
+	<option value="203573">DIFUSÃO DO CONHECIMENTO IFBA - SENAI/CIMATEC - LNCC - UNEB - UEFS (28001010064P0) (Programa em Rede) </option>
+	<option value="369">DIREITO (28001010015P0)</option>
+	<option value="203574">DIVERSIDADE ANIMAL (28001010065P7)</option>
+	<option value="204446">Ecologia (28001010082P9)</option>
+	<option value="389">ECOLOGIA E BIOMONITORAMENTO (28001010039P6)</option>
+	<option value="364">ECONOMIA (28001010010P8)</option>
+	<option value="356">EDUCAÇÃO (28001010001P9)</option>
+	<option value="202495">ENERGIA E AMBIENTE (28001010053P9)</option>
+	<option value="368">ENFERMAGEM (28001010014P3)</option>
+	<option value="388">ENGENHARIA CIVIL (28001010038P0)</option>
+	<option value="206790">ENGENHARIA CIVIL (28001010172P8)</option>
+	<option value="204713">Engenharia de Estruturas (28001010087P0)</option>
+	<option value="387">ENGENHARIA ELÉTRICA (28001010037P3)</option>
+	<option value="202866">ENGENHARIA INDUSTRIAL (28001010062P8)</option>
+	<option value="204176">ENGENHARIA INDUSTRIAL (28001010071P7)</option>
+	<option value="375">ENGENHARIA QUÍMICA (28001010021P0)</option>
+	<option value="202752">ENGENHARIA QUÍMICA - UFBA-UNIFACS (28001010059P7) (Programa em Rede) </option>
+	<option value="390">ENSINO, FILOSOFIA E HISTÓRIA DAS CIÊNCIAS (28001010040P4) (Programa em Rede) </option>
+	<option value="52314">ESTUDOS ÉTNICOS E AFRICANOS (28001010048P5)</option>
+	<option value="204472">Estudos Interdisciplinares sobre a Universidade (28001010083P5)</option>
+	<option value="202542">ESTUDOS INTERDISCIPLINARES SOBRE MULHERES, GÊNERO E FEMINISMO (28001010056P8)</option>
+	<option value="204050">FARMÁCIA (28001010067P0)</option>
+	<option value="392">FILOSOFIA (28001010042P7)</option>
+	<option value="357">FÍSICA (28001010002P5)</option>
+	<option value="204568">Genética e Biodiversidade (28001010084P1)</option>
+	<option value="362">GEOFÍSICA (28001010007P7)</option>
+	<option value="383">GEOGRAFIA (28001010032P1)</option>
+	<option value="360">GEOLOGIA (28001010005P4)</option>
+	<option value="204197">GEOQUÍMICA: PETRÓLEO E MEIO AMBIENTE (28001010073P0)</option>
+	<option value="206596">GESTÃO E REGULAÇÃO DE RECURSOS HÍDRICOS - PROFÁGUA (33004013069P2) (Programa em Rede) </option>
+	<option value="376">HISTÓRIA (28001010022P6)</option>
+	<option value="379">IMUNOLOGIA (28001010025P5)</option>
+	<option value="205242">LETRAS (23001011069P5) (Programa em Rede) </option>
+	<option value="371">LETRAS E LINGÜÍSTICA (28001010017P2)</option>
+	<option value="204344">LÍNGUA E CULTURA (28001010078P1)</option>
+	<option value="204345">LITERATURA E CULTURA (28001010079P8)</option>
+	<option value="358">MATEMÁTICA (28001010003P1)</option>
+	<option value="204471">Matemática em Rede Nacional (31075010001P2) (Programa em Rede) </option>
+	<option value="204410">MATEMÁTICA - UFBA-UFAL (28001010081P2) (Programa em Rede) </option>
+	<option value="395">MECATRÔNICA (28001010045P6)</option>
+	<option value="366">MEDICINA E SAÚDE (28001010012P0)</option>
+	<option value="204248">Meio Ambiente , Águas e Saneamento (28001010076P9)</option>
+	<option value="206784">MICROBIOLOGIA (28001010171P1)</option>
+	<option value="205523">Multicêntrico em Bioquímica e Biologia Molecular (33287015001P7) (Programa em Rede) </option>
+	<option value="204154">MULTICÊNTRICO EM CIÊNCIAS FISIOLÓGICAS (33147019001P2) (Programa em Rede) </option>
+	<option value="205311">Museologia (28001010093P0)</option>
+	<option value="380">MÚSICA (28001010026P1)</option>
+	<option value="205237">Música (28001010092P4)</option>
+	<option value="381">ODONTOLOGIA E SAUDE (28001010029P0)</option>
+	<option value="365">PATOLOGIA HUMANA (28001010011P4)</option>
+	<option value="204218">PROCESSOS INTERATIVOS DOS ÓRGÃOS E SISTEMAS (28001010075P2)</option>
+	<option value="205435">PROFARTES (41002016026P1) (Programa em Rede) </option>
+	<option value="206558">PROFNIT - PROPRIEDADE INTELECTUAL E TRANSFERÊNCIA DE TECNOLOGIA PARA INOVAÇÃO (31102000001P6) (Programa em Rede) </option>
+	<option value="394">PSICOLOGIA (28001010044P0)</option>
+	<option value="359">QUÍMICA (28001010004P8)</option>
+	<option value="205489">RELAÇÕES INTERNACIONAIS (28001010094P7)</option>
+	<option value="202753">SAÚDE, AMBIENTE E TRABALHO (28001010060P5)</option>
+	<option value="367">SAÚDE COLETIVA (28001010013P7)</option>
+	<option value="152282">SAÚDE COLETIVA (28001010051P6)</option>
+	<option value="206684">SAÚDE COLETIVA (28001010170P5)</option>
+	<option value="204610">Segurança Pública, Justiça e Cidadania (28001010085P8)</option>
+	<option value="204714">Zootecnia (28001010088P7)</option>
 </select>
-				</li>
-				<li class="pag-proxima"><span id="form:j_idt70:botaoProxPagina" name="form:j_idt70:botaoProxPagina" class="alteraPagina">Pr&oacute;xima</span>
-				</li>
-				<li class="pag-fim"><span id="form:j_idt70:botaoUltimaPagina" name="form:j_idt70:botaoUltimaPagina" class="alteraPagina">Fim</span>
-
-				</li>
-
-
-
-			</ul>
-		</div><div id="form:j_idt70:div_paginacao" class="paginacao" style="text-align:center;">
-			<ul>
-				<li>1 a 38 de 38 registro(s)
-						<script type="text/javascript">
-							function realizarSort(){
-
-							}
-						 </script>
-
-
-
-				</li>
-			</ul></div>
-		<body onload="refreshPaginacao();"></body>
-	                      </div>
-	                    </div></span><script type="text/javascript">new RichFaces.ui.Status("form:j_idt55",{"statusName":"resultado"} )</script></span></span>]]></update><update id="javax.faces.ViewState"><![CDATA[4277149376234267649:-3505453426517887072]]></update><extension id="org.richfaces.extension"><complete>window.scrollTo(0, 0);;</complete></extension></changes></partial-response>
+			</div>
+		  </div>
+		</div>
+	  </div></span>]]></update><update id="javax.faces.ViewState"><![CDATA[5580775778666744988:970430601415458296]]></update></changes></partial-response>

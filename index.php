@@ -109,7 +109,7 @@ Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4*/
 * @param $year - string identificando o ano
 * @return $teachers - Array de objetos(stdClass) contendo nome, categoria e link para visualização
 **/
-function getProgramTeachers($program_id = "367", $year = "2017") {
+function getProgramTeachers($program_id = "367", $year = "2018") {
     // $year = "2017";
     // $program_id = "367"; // Saúde Coletiva -- 57 registros
     // $program_id = "205551"; // Ciência da Computação -- 38 registros
@@ -166,10 +166,10 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
     curl_setopt($ch, CURLOPT_POST, 1);
 
     /*form=form&
-    form%3Aj_idt23%3Aano=" . $year . "&
-    form%3Aj_idt23%3Ainst%3AvalueId=4354&
-    form%3Aj_idt23%3Ainst%3Ainput=28001010%20UNIVERSIDADE%20FEDERAL%20DA%20BAHIA%20(UFBA)&
-    form%3Aj_idt23%3Aj_idt99=205000&
+    form%3Aj_idt22%3Aano=" . $year . "&
+    form%3Aj_idt22%3Ainst%3AvalueId=4354&
+    form%3Aj_idt22%3Ainst%3Ainput=28001010%20UNIVERSIDADE%20FEDERAL%20DA%20BAHIA%20(UFBA)&
+    form%3Aj_idt22%3Aj_idt99=205000&
     form%3Adocente=&
     form%3Acategoria=0&
     javax.faces.ViewState=1230730448448279533%3A4157464020732386004&
@@ -184,10 +184,10 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
 
     $fields = array(
         'form' => "form",
-        'form:j_idt23:ano' => "" . $year . "",
-        'form:j_idt23:inst:valueId' => "4354",
-        'form:j_idt23:inst:input' => "28001010 UNIVERSIDADE FEDERAL DA BAHIA (UFBA)",
-        'form:j_idt23:j_idt42' => $program_id,
+        'form:j_idt22:ano' => "" . $year . "",
+        'form:j_idt22:inst:valueId' => "4354",
+        'form:j_idt22:inst:input' => "28001010 UNIVERSIDADE FEDERAL DA BAHIA (UFBA)",
+        'form:j_idt22:j_idt42' => $program_id,
         //$select_id => "205000",
         'form:docente' => "",
         'form:categoria' => "3",
@@ -204,7 +204,7 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
     $fields_string = http_build_query($fields);
 
     //curl_setopt($ch, CURLOPT_POSTFIELDS, $fields_string);  //Post Fields
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt23%3Aano=" . $year . "&form%3Aj_idt23%3Ainst%3AvalueId=&form%3Aj_idt23%3Ainst%3Ainput=ufba&form%3Aj_idt23%3Ainst%3Alistbox=4354&form%3Adocente=&form%3Acategoria=0&javax.faces.ViewState=" . $viewState . "&javax.faces.source=form%3Aj_idt23%3Ainst%3Alistbox&javax.faces.partial.event=change&javax.faces.partial.execute=form%3Aj_idt23%3Ainst%3Alistbox%20form%3Aj_idt23%3Ainst&javax.faces.partial.render=form%3Aj_idt23%3Ainst%3Ainst%20form%3Aj_idt23%3Ainst%3AvalueId%20form%3Aj_idt23%3Aprograma&javax.faces.behavior.event=valueChange&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt22%3Aano=" . $year . "&form%3Aj_idt22%3Ainst%3AvalueId=&form%3Aj_idt22%3Ainst%3Ainput=ufba&form%3Aj_idt22%3Ainst%3Alistbox=4354&form%3Adocente=&form%3Acategoria=0&javax.faces.ViewState=" . $viewState . "&javax.faces.source=form%3Aj_idt22%3Ainst%3Alistbox&javax.faces.partial.event=change&javax.faces.partial.execute=form%3Aj_idt22%3Ainst%3Alistbox%20form%3Aj_idt22%3Ainst&javax.faces.partial.render=form%3Aj_idt22%3Ainst%3Ainst%20form%3Aj_idt22%3Ainst%3AvalueId%20form%3Aj_idt22%3Aprograma&javax.faces.behavior.event=valueChange&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
 
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5000);
@@ -231,7 +231,7 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
 
     $data = curl_exec($ch);
 
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt23%3Aano=" . $year . "&form%3Aj_idt23%3Ainst%3AvalueId=&form%3Aj_idt23%3Ainst%3Ainput=ufba&form%3Aj_idt23%3Ainst%3Alistbox=4354&form%3Adocente=&form%3Acategoria=0&javax.faces.ViewState=". $viewState . "&javax.faces.source=form%3Aj_idt23%3Ainst%3Alistbox&javax.faces.partial.event=change&javax.faces.partial.execute=form%3Aj_idt23%3Ainst%3Alistbox%20form%3Aj_idt23%3Ainst&javax.faces.partial.render=form%3Aj_idt23%3Ainst%3Ainst%20form%3Aj_idt23%3Ainst%3AvalueId%20form%3Aj_idt23%3Aprograma&javax.faces.behavior.event=valueChange&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt22%3Aano=" . $year . "&form%3Aj_idt22%3Ainst%3AvalueId=&form%3Aj_idt22%3Ainst%3Ainput=ufba&form%3Aj_idt22%3Ainst%3Alistbox=4354&form%3Adocente=&form%3Acategoria=0&javax.faces.ViewState=". $viewState . "&javax.faces.source=form%3Aj_idt22%3Ainst%3Alistbox&javax.faces.partial.event=change&javax.faces.partial.execute=form%3Aj_idt22%3Ainst%3Alistbox%20form%3Aj_idt22%3Ainst&javax.faces.partial.render=form%3Aj_idt22%3Ainst%3Ainst%20form%3Aj_idt22%3Ainst%3AvalueId%20form%3Aj_idt22%3Aprograma&javax.faces.behavior.event=valueChange&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
 
     $headers = [
         'Host: sucupira.capes.gov.br',
@@ -259,7 +259,7 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
     $dom->loadHTML($data);
     $select_id = $dom->getElementsByTagName('select')->item(1)->getAttribute('name');
 
-    curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt23%3Aano=" . $year . "&form%3Aj_idt23%3Ainst%3AvalueId=4354&form%3Aj_idt23%3Ainst%3Ainput=28001010%20UNIVERSIDADE%20FEDERAL%20DA%20BAHIA%20(UFBA)&" . $select_id . "=" . $program_id . "&form%3Adocente=&form%3Acategoria=0&javax.faces.ViewState=" . $viewState . "&javax.faces.source=form%3Aconsultar&javax.faces.partial.event=click&javax.faces.partial.execute=form%3Aconsultar%20%40component&javax.faces.partial.render=%40component&javax.faces.behavior.event=action&org.richfaces.ajax.component=form%3Aconsultar&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt22%3Aano=" . $year . "&form%3Aj_idt22%3Ainst%3AvalueId=4354&form%3Aj_idt22%3Ainst%3Ainput=28001010%20UNIVERSIDADE%20FEDERAL%20DA%20BAHIA%20(UFBA)&" . $select_id . "=" . $program_id . "&form%3Adocente=&form%3Acategoria=0&javax.faces.ViewState=" . $viewState . "&javax.faces.source=form%3Aconsultar&javax.faces.partial.event=click&javax.faces.partial.execute=form%3Aconsultar%20%40component&javax.faces.partial.render=%40component&javax.faces.behavior.event=action&org.richfaces.ajax.component=form%3Aconsultar&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
 
     $headers = [
         'Host: sucupira.capes.gov.br',
@@ -284,23 +284,23 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
 
     $teachers = array();
     foreach ($tbody->getElementsByTagName('tr') as $key => $tr) {
-        $tr->getElementsByTagName('td');
+        
         $teachers[] = (object)[
-            "nome" => $tr->childNodes->item(0)->nodeValue,
-            "categoria" => $tr->childNodes->item(2)->nodeValue,
+            "nome" => $tr->getElementsByTagName('td')->item(0)->nodeValue,
+            "categoria" => $tr->getElementsByTagName('td')->item(1)->nodeValue,
             "link" => $host . $tr->getElementsByTagName('a')->item(0)->getAttribute('href'),
         ];
     }
 
-    $div_paging = $tbody->parentNode->parentNode->childNodes->item(2);
+    $div_paging = $tbody->parentNode->parentNode->getElementsByTagName('div')->item(0); //div paginação
     $select_paging = $div_paging->getElementsByTagName('select')->item(0);
 
     $select_paging_id = $select_paging->getAttribute('name');
 
-    $qt_pages = $select_paging->childNodes->length;
+    $qt_pages = $select_paging->getElementsByTagName('option')->length;
 
     for ($i = 2; $i <= $qt_pages; $i++) {
-        curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt23%3Aano=" . $year . "&form%3Aj_idt23%3Ainst%3AvalueId=4354&form%3Aj_idt23%3Ainst%3Ainput=28001010%20UNIVERSIDADE%20FEDERAL%20DA%20BAHIA%20(UFBA)&" . $select_id . "=" . $program_id . "&form%3Adocente=&form%3Acategoria=0&" . $select_paging_id . "=" . $i . "&javax.faces.ViewState=" . $viewState . "&javax.faces.source=" . $select_paging_id . "&javax.faces.partial.event=change&javax.faces.partial.execute=" . $select_paging_id . "%20%40component&javax.faces.partial.render=%40component&javax.faces.behavior.event=change&org.richfaces.ajax.component=" . $select_paging_id . "&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
+        curl_setopt($ch, CURLOPT_POSTFIELDS, "form=form&form%3Aj_idt22%3Aano=" . $year . "&form%3Aj_idt22%3Ainst%3AvalueId=4354&form%3Aj_idt22%3Ainst%3Ainput=28001010%20UNIVERSIDADE%20FEDERAL%20DA%20BAHIA%20(UFBA)&" . $select_id . "=" . $program_id . "&form%3Adocente=&form%3Acategoria=0&" . $select_paging_id . "=" . $i . "&javax.faces.ViewState=" . $viewState . "&javax.faces.source=" . $select_paging_id . "&javax.faces.partial.event=change&javax.faces.partial.execute=" . $select_paging_id . "%20%40component&javax.faces.partial.render=%40component&javax.faces.behavior.event=change&org.richfaces.ajax.component=" . $select_paging_id . "&AJAX%3AEVENTS_COUNT=1&javax.faces.partial.ajax=true");  //Post Fields
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
         $data = curl_exec($ch);
@@ -310,10 +310,10 @@ function getProgramTeachers($program_id = "367", $year = "2017") {
         $tbody = $dom->getElementsByTagName('tbody')->item(0);
 
         foreach ($tbody->getElementsByTagName('tr') as $key => $tr) {
-            $tr->getElementsByTagName('td');
+            
             $teachers[] = (object)[
-                "nome" => $tr->childNodes->item(0)->nodeValue,
-                "categoria" => $tr->childNodes->item(2)->nodeValue,
+                "nome" => $tr->getElementsByTagName('td')->item(0)->nodeValue,
+                "categoria" => $tr->getElementsByTagName('td')->item(1)->nodeValue,
                 "link" => $host . $tr->getElementsByTagName('a')->item(0)->getAttribute('href'),
             ];
         }
